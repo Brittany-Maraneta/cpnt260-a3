@@ -1,0 +1,65 @@
+/*Layout css */
+body {
+  font-size: 30px;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(101, 21, 34);
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://images.pexels.com/photos/2395249/pexels-photo-2395249.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+button {
+  font-size: 30px;
+
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(101, 21, 34);
+  text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/*typography css */
+h1 {
+  font-size: 150px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  background-color: aliceblue;
+  opacity: 85%;
+  text-align: center;
+  margin-top: 2em;
+  border-radius: 10px;
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(101, 21, 34);
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(101, 21, 34);
+  text-align: center;
+}
