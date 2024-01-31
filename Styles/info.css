@@ -1,4 +1,4 @@
-/*Layout css */
+/*Layout.css */
 body {
   font-size: 30px;
   margin: 0;
@@ -6,19 +6,20 @@ body {
   color: hsl(350, 66%, 24%);
   text-align: center;
   background-color: rgb(251, 206, 225);
+
+  /*trying to figure out how to do gradient background
+  background-color: rgb(251, 206, 225);
   background-color: linear-gradient(
     90deg,
     rgba(251, 206, 225, 1) 11%,
     rgba(167, 207, 255, 1) 89%
-  );
+  );*/
 }
 
-/*typography css */
+/*typography.css */
 h1 {
-  font-size: 150px;
+  font-size: 100px;
   justify-content: center;
-  display: flex;
-  align-items: center;
   font-family: "Courier New", Courier, monospace;
   background-color: hsl(208, 100%, 97%);
   opacity: 85%;
@@ -26,7 +27,15 @@ h1 {
   margin-top: 2em;
   border-radius: 10px;
   position: absolute;
-
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/*interactive.css*/
+div {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div:hover {
+  transform: rotate(180deg);
 }

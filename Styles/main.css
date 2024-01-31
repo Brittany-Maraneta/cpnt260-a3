@@ -1,14 +1,10 @@
-/*Layout css */
+/*Layout.css */
 body {
   font-size: 30px;
   margin: 0;
   font-family: "Courier New", Courier, monospace;
   color: hsl(350, 66%, 24%);
   text-align: center;
-}
-
-body.text {
-  max-width: 40ch;
 }
 
 header {
@@ -36,53 +32,43 @@ button {
   cursor: pointer;
 }
 
+/*animation.css*/
+
 button:hover {
   background-color: hsl(351, 100%, 93%);
   color: rgb(101, 21, 34);
   transition: 0.3s;
 }
 
-/*typography css */
+/*typography.css */
 h1 {
   font-size: 150px;
-
-  font-family: "Courier New", Courier, monospace;
   background-color: hsl(208, 100%, 97%);
   opacity: 85%;
   text-align: center;
-
   border-radius: 10px;
 }
 
 h2 {
   font-size: 30px;
-  font-family: "Courier New", Courier, monospace;
-  color: hsl(350, 66%, 24%);
   text-align: center;
   max-width: 40ch;
+  background-color: hsl(208, 100%, 97%);
+  opacity: 85%;
+  border-radius: 10px;
 }
 
 h3 {
   font-size: 30px;
-  font-family: "Courier New", Courier, monospace;
-  color: hsl(350, 66%, 24%);
   text-align: center;
-
-  height: 60vh;
+  max-width: 40ch;
+  margin: auto;
 }
 
+/*interactive.css*/
 @media screen and (min-width: 600px) {
   header {
     height: 100vh;
     transition-duration: 0.3s;
-    padding-top: 10%;
-  }
-
-  h3 {
-    height: 100vh;
-    transition-duration: 0.3s;
-    padding-top: 10%;
-    justify-content: center;
-    display: flex;
   }
 }
